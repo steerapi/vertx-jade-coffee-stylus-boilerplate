@@ -10,7 +10,4 @@ watch:
 run: all
 	vertx run app.js
 
-static:
-	vertx run static_data.js
-
 .PHONY: watch run static
